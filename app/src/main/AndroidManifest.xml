@@ -10,17 +10,20 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activities.Activity1"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name=".activities.Activity2"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Activity2"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.SUPERCALCULATOR"
-
             android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".SIGNUP" />
+        <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                 <category android:name="android.intent.category.LAUNCHER" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
